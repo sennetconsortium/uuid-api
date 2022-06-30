@@ -64,7 +64,7 @@ def init():
 
 @app.route('/', methods=['GET'])
 def index():
-    return "Hello! This is the UUID API service :)"
+    return "Hello! This is the SenNet UUID API service :)"
 
 
 # Status of MySQL connection
