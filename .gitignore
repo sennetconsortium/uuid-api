@@ -1,0 +1,37 @@
+# Ignore config files
+src/instance/app.cfg
+app.cfg
+reload_from_neo4j/reload.properties
+
+BUILD
+# mounted BUILD/VERSION file
+src/BUILD
+src/VERSION
+
+# Ignore docker copied files/folders
+docker/uuid-api/BUILD
+docker/uuid-api/VERSION
+docker/uuid-api/src
+docker/uuid-api/log
+docker/uuid-api/conf
+
+# Ignore __pycache__ directories in any path
+**/__pycache__
+
+# log files in any path
+**/*.log
+
+# Rotated log files
+**/*.log*
+
+.project
+.pydevproject
+
+test/*.sh
+
+*~
+
+log/*
+!log/README.md
+
+.idea/
